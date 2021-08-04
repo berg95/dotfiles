@@ -1,0 +1,6 @@
+; change window based on mouse actions
+(setf *mouse-focus-policy* :click)
+
+(setf (getenv "GDK_CORE_DEVICE_EVENTS") "1")
+
+(define-key *root-map* (kbd "c") "exec alacritty")
