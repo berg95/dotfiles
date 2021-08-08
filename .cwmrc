@@ -1,0 +1,14 @@
+# menu
+color menubg "#224466"
+color menufg "orange"
+color font "#ffffff"
+
+command Firefox firefox
+command Steam steam
+command "Visual Studio Code" code
+
+# bindings
+bind-mouse M-3 window-resize
+bind-mouse M-2 window-lower
+
+
