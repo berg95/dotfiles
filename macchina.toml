@@ -1,0 +1,8 @@
+no_ascii = true
+no_separator = true
+no_bar_delimiter = true
+no_title = true
+
+theme = "Hydrogen"
+
+hide = ["LocalIP", "Machine", "Host", ]
