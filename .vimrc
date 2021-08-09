@@ -1,5 +1,5 @@
 "vimrc
-colors perun
+
 set t_Co=256
 set nocompatible
 set backspace=indent,eol,start
