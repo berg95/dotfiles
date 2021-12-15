@@ -14,20 +14,20 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  networking.hostName = "dellwpc"; # Define your hostname.
+  networking.hostName = ""; # Define your hostname.
 
   # wireless config via wpa_supplicant
   networking.wireless = {
     enable = true;
     networks = {
-      ATT88yDP9j = {
-        psk = "66rd?b4x5+ut";
+      ssid = {
+        psk = "";
       };
     };
   };
 
   # Set your time zone.
-  time.timeZone = "America/Chicago";
+  time.timeZone = "";
 
   # The global useDHCP flag is deprecated, therefore explicitly set to false here.
   # Per-interface useDHCP will be mandatory in the future, so this generated config
@@ -75,7 +75,7 @@
   # services.xserver.libinput.enable = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.eb = {
+  users.users.username = {
     isNormalUser = true;
     extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
   };
